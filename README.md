@@ -19,6 +19,8 @@ npm install @mui/icons-material
 
 # [Task 02](https://github.com/BroLetsCodeIt/intership-assignment/blob/main/src/components/FirstPage.tsx)
 
+# Task 03
+![image](https://github.com/BroLetsCodeIt/intership-assignment/assets/113767803/2a7bf504-df6f-4c73-8351-3f3359dd6a80)
 
 
 
