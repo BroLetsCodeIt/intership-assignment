@@ -97,7 +97,7 @@ export default function Department() {
           onClick={handledropdown}
           sx={{ cursor: "pointer", width: "min-content" }}
         />}
-          {isboxedclicked1 && 
+         
           <Box id="form-1" >
             <FormControlLabel
               label="Customer_service"
@@ -110,15 +110,17 @@ export default function Department() {
                 />
               }
             />
-            {children1}
-          </Box>}
+             {isboxedclicked1 &&
+                 children1
+             }
+          </Box>
         </Container>
       </Box>
       <Box>
         <Container sx={{ display: "flex" }}>
           {isboxedclicked2 ? <ArrowDropDownIcon sx={{ cursor: "pointer" }} onClick={handledropdown2}/> : <ArrowRightIcon sx={{ cursor: "pointer" }} onClick={handledropdown2}/>}
           
-          {isboxedclicked2 && 
+         
           <Box id="form-2">
             <FormControlLabel
               label="design"
@@ -134,8 +136,11 @@ export default function Department() {
                 />
               }
             />
-            {children2}
-          </Box>}
+             {
+             isboxedclicked2 && 
+               children2
+            }
+          </Box>
         </Container>
       </Box>
     </>
