@@ -25,3 +25,4 @@ npm install @mui/icons-material
 
 # Task 04 - [Live Demo](https://admirable-crostata-10af35.netlify.app/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac08c4ed-95a8-4088-a293-a97791abe5d5/deploy-status)](https://app.netlify.com/sites/admirable-crostata-10af35/deploys)
